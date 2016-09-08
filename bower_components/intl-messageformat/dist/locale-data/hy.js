@@ -1,0 +1,1 @@
+IntlMessageFormat.__addLocaleData({locale:"hy",pluralRuleFunction:function(e,o){return o?1==e?"one":"other":e>=0&&e<2?"one":"other"}});

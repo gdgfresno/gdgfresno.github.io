@@ -1,0 +1,41 @@
+{
+    "103": {
+        "id": 103,
+        "title": "TBD3",
+        "description": "Nullam porta eros eget lacinia ullamcorper. Maecenas tempor euismod purus vitae pharetra. Quisque sit amet massa augue. Praesent eleifend sodales gravida. Sed laoreet, ipsum eget tristique pulvinar, quam velit molestie urna, in porttitor quam lacus vitae velit. Donec in dictum dolor, id dapibus est. Nulla eu leo et elit pharetra accumsan.",
+        "speakers": [
+            2
+        ],
+        "language": "English",
+        "complexity": "Intermediate",
+        "tags": [
+            "Android"
+        ]
+    },
+    "102": {
+        "id": 102,
+        "title": "TBD2",
+        "description": "Donec maximus felis nunc, a tincidunt nibh tristique at. Cras eget ultricies turpis. Praesent non tristique massa, non suscipit lorem. Morbi vulputate massa sit amet orci feugiat, pretium sodales metus faucibus. Sed auctor lectus sed ipsum eleifend euismod. Nullam tempor lectus vel dictum tincidunt. Ut rhoncus finibus odio in rhoncus. Proin eu nisl eu ante scelerisque ullamcorper. Integer vulputate vel justo ut rhoncus. Aliquam non leo porttitor ipsum molestie ultrices eget vel turpis. Vivamus feugiat risus enim, nec ultricies metus iaculis id. Duis ut blandit sem, efficitur commodo metus. Nam porta purus eget tempor vehicula.",
+        "speakers": [
+            1
+        ],
+        "language": "English",
+        "complexity": "Beginner",
+        "tags": [
+            "Cloud"
+        ]
+    },
+    "101": {
+        "id": 101,
+        "title": "TBD",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum diam eu congue pharetra. Morbi laoreet lorem tincidunt felis bibendum, vitae posuere purus suscipit. Aliquam erat volutpat. Nam cursus erat sed tellus finibus mollis. Suspendisse placerat auctor eros, a semper lacus luctus quis. Quisque vel neque id erat accumsan facilisis. Donec quis ante quam. Praesent porta, ipsum et blandit pretium, elit neque finibus mi, fringilla aliquet nisl odio ullamcorper urna. Donec ullamcorper dui ac ante viverra lacinia. Morbi a leo sagittis, laoreet ipsum sit amet, fringilla nunc. Curabitur auctor eget arcu a tempus. Nulla in congue dui. Duis at ultricies tortor. Nunc aliquam odio eu risus pretium, a ornare lorem varius.",
+        "speakers": [
+            1
+        ],
+        "language": "English",
+        "complexity": "Beginner",
+        "tags": [
+            "Cloud"
+        ]
+    }
+}

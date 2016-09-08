@@ -1,0 +1,65 @@
+[{
+    "date": "2016-10-22",
+    "dateReadable": "October 22",
+    "tracks": [{
+        "title": "Expo hall"
+    }, {
+        "title": "Conference hall"
+    }, {
+        "title": "Workshops hall"
+    }],
+    "timeslots": [{
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [
+            [101]
+        ]
+    }, {
+        "startTime": "10:00",
+        "endTime": "10:15",
+        "sessions": [
+            [102]
+        ]
+    }, {
+        "startTime": "10:15",
+        "endTime": "11:00",
+        "sessions": [
+            [103]
+        ]
+    }, {
+        "startTime": "11:00",
+        "endTime": "11:40",
+        "sessions": [
+        ]
+    }, {
+        "startTime": "11:50",
+        "endTime": "12:30",
+        "sessions": [
+        ]
+    }, {
+        "startTime": "12:30",
+        "endTime": "14:00",
+        "sessions": [
+        ]
+    }, {
+        "startTime": "14:00",
+        "endTime": "14:40",
+        "sessions": [
+        ]
+    }, {
+        "startTime": "14:50",
+        "endTime": "15:30",
+        "sessions": [
+        ]
+    }, {
+        "startTime": "15:30",
+        "endTime": "16:00",
+        "sessions": [
+        ]
+    }, {
+        "startTime": "16:00",
+        "endTime": "16:40",
+        "sessions": [
+        ]
+    }]
+}]

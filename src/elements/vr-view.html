@@ -1,0 +1,16 @@
+<html><head><link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../behaviors/utils-behavior.html">
+
+</head><body><dom-module id="vr-view">
+
+  <template>
+    <div style="text-align:center">
+      <iframe frameborder="0" width="100%" height="250" scrolling="no" allowfullscreen="" src="/vrview.html?image=[[url]]&amp;is_stereo=false">
+      </iframe>
+    </div>
+  </template>
+
+  <script>!function(){"use strict";Polymer({is:"vr-view",behaviors:[HOVERBOARD.UtilsBehavior],properties:{url:{type:String}}})}();</script>
+
+</dom-module></body></html>

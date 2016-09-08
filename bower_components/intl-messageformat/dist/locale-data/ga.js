@@ -1,0 +1,1 @@
+IntlMessageFormat.__addLocaleData({locale:"ga",pluralRuleFunction:function(e,a){var t=String(e).split("."),n=Number(t[0])==e;return a?1==e?"one":"other":1==e?"one":2==e?"two":n&&e>=3&&e<=6?"few":n&&e>=7&&e<=10?"many":"other"}});
