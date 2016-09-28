@@ -51,7 +51,9 @@
                             <li>[[subSession.complexity]]</li>
                           </template>
                           <template is="dom-if" if="[[subSession.track.title]]">
-                            <li>[[subSession.track.title]]</li>
+                            <template is="dom-if" if="[[!subSession.colspan]]">
+                              <li>[[subSession.track.title]]</li>
+                            </template>
                           </template>
                         </ul>
                       </div>
@@ -72,7 +74,7 @@
                               <div class="person-detail" flex="">
                                 <span class="speaker-name">[[speaker.name]]</span>
                                 <div class="speaker-title">
-                                  [[speaker.company]] / [[speaker.country]]
+                                  [[speaker.company]]
                                 </div>
                               </div>
                             </div>

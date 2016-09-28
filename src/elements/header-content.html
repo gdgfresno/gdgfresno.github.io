@@ -24,13 +24,14 @@
             <div class="home-wrapper">
               <iron-image class="logo" src="/images/logo-light.svg" sizing="contain" alt="ValleyDevFest 2016"></iron-image>
               <h3 class="dates">{{localize('dates')}}</h3>
-              <h2 class="motto">{{localize('motto')}}</h2>
               <div class="open-video" on-tap="_openVideo">
                 <iron-icon icon="play"></iron-icon>
                 {{localize('play-icon')}}
               </div>
+              <h2 class="motto">{{localize('motto')}}</h2>
               <div class="action-buttons">
-                <paper-button class="primary" on-tap="_scrollToTickets" raised="">{{localize('buy-ticket')}}</paper-button>
+                
+                <paper-button class="primary" on-tap="_scrollToTickets" raised="" title="[[localize('buy-tooltip')]]">{{localize('buy-ticket')}}</paper-button>
               </div>
             </div>
           </div>
@@ -67,7 +68,7 @@
 
   </template>
 
-  <script>!function(){"use strict";Polymer({is:"header-content",behaviors:[HOVERBOARD.LocalizeBehavior],properties:{app:{type:Object},schedule:Array,selectedDay:{type:Number,notify:!0,value:0}},_openVideo:function(){HOVERBOARD.Elements.Template.openVideo("ValleyDevFest 2016","8cnykM7UAy8",!0),HOVERBOARD.Analytics.trackEvent("video","watch","ValleyDevFest 2016")},_scrollToTickets:function(){HOVERBOARD.Analytics.trackEvent("ticket","buy_click","header"),Polymer.AppLayout.scroll({top:HOVERBOARD.Elements.Tickets.getBoundingClientRect().top,behavior:"smooth",target:HOVERBOARD.Elements.Scroller})}})}();</script>
+  <script>!function(){"use strict";Polymer({is:"header-content",behaviors:[HOVERBOARD.LocalizeBehavior],properties:{app:{type:Object},schedule:Array,selectedDay:{type:Number,notify:!0,value:0}},_openVideo:function(){HOVERBOARD.Elements.Template.openVideo("ValleyDevFest 2016","8cnykM7UAy8",!0),HOVERBOARD.Analytics.trackEvent("video","watch","ValleyDevFest 2016")},_scrollToTickets:function(){HOVERBOARD.Analytics.trackEvent("ticket","buy_click","header"),Polymer.AppLayout.scroll({top:HOVERBOARD.Elements.Tickets.getBoundingClientRect().top,behavior:"smooth",target:HOVERBOARD.Elements.Scroller})},_trackBuyTshirt:function(){HOVERBOARD.Analytics.trackEvent("tshirt","buy_click","header")}})}();</script>
 
 </dom-module>
 </body></html>

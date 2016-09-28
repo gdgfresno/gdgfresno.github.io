@@ -25,14 +25,15 @@
         </template>
       </div>
       <div class="details">[[localize('tickets-details')]]</div>
-      <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
+      <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTicketClick" title="[[localize('buy-tooltip')]]">
         <paper-button class="buy-button" raised="">[[localize('buy-ticket')]]</paper-button>
       </a>
+      
     </div>
 
   </template>
 
-  <script>!function(){"use strict";Polymer({is:"tickets-block",behaviors:[HOVERBOARD.LocalizeBehavior],ready:function(){HOVERBOARD.Elements.Tickets=this},_trackBuyClick:function(t){HOVERBOARD.Analytics.trackEvent("ticket","buy_click",t.currentTarget.href)}})}();</script>
+  <script>!function(){"use strict";Polymer({is:"tickets-block",behaviors:[HOVERBOARD.LocalizeBehavior],ready:function(){HOVERBOARD.Elements.Tickets=this},_trackBuyTicketClick:function(t){HOVERBOARD.Analytics.trackEvent("ticket","buy_click",t.currentTarget.href)},_trackBuyTshirtClick:function(t){HOVERBOARD.Analytics.trackEvent("tshirt","buy_click",t.currentTarget.href)}})}();</script>
 
 </dom-module>
 </body></html>

@@ -1,41 +1,352 @@
 {
-    "103": {
-        "id": 103,
-        "title": "TBD3",
-        "description": "Nullam porta eros eget lacinia ullamcorper. Maecenas tempor euismod purus vitae pharetra. Quisque sit amet massa augue. Praesent eleifend sodales gravida. Sed laoreet, ipsum eget tristique pulvinar, quam velit molestie urna, in porttitor quam lacus vitae velit. Donec in dictum dolor, id dapibus est. Nulla eu leo et elit pharetra accumsan.",
+    "101": {
+        "id": 101,
+        "title": "Registration & morning coffee + donuts",
+        "description": "Get your badge, coffee, enjoy socializing with your peers",
+        "image": "/images/backgrounds/morning.jpg",
+        "colspan": true
+    },
+    "116": {
+        "id": 116,
+        "title": "Opening",
+        "description": "Official start of the conference. Greetings from the organizers, sponsors and partners",
+        "image": "/images/backgrounds/coffee-break.jpg",
+        "colspan": true,
         "speakers": [
-            2
-        ],
-        "language": "English",
-        "complexity": "Intermediate",
-        "tags": [
-            "Android"
+            14
         ]
     },
     "102": {
         "id": 102,
-        "title": "TBD2",
-        "description": "Donec maximus felis nunc, a tincidunt nibh tristique at. Cras eget ultricies turpis. Praesent non tristique massa, non suscipit lorem. Morbi vulputate massa sit amet orci feugiat, pretium sodales metus faucibus. Sed auctor lectus sed ipsum eleifend euismod. Nullam tempor lectus vel dictum tincidunt. Ut rhoncus finibus odio in rhoncus. Proin eu nisl eu ante scelerisque ullamcorper. Integer vulputate vel justo ut rhoncus. Aliquam non leo porttitor ipsum molestie ultrices eget vel turpis. Vivamus feugiat risus enim, nec ultricies metus iaculis id. Duis ut blandit sem, efficitur commodo metus. Nam porta purus eget tempor vehicula.",
+        "title": "Keynote: Illusion of Speed",
+        "description": "If you could take a 50% hit in real world performance and get a site that feels 50% faster, would you? Nobody cares how fast your site is. All your users care about is how fast your site feels. Going beyond the perceived perf theory, Paul is bringing a bunch of examples of things that employ clever tricks and psychology to turn things that should be slow into things that feel incredibly fast.",
+        "image": "/images/backgrounds/opening.jpg",
+        "colspan": true,
         "speakers": [
             1
         ],
-        "language": "English",
         "complexity": "Beginner",
+        "tags": [
+            "General"
+        ]
+    },
+    "103": {
+        "id": 103,
+        "title": "Lunch",
+        "description": "Foooooooood!",
+        "image": "/images/backgrounds/lunch.jpg",
+        "colspan": true
+    },
+    "104": {
+        "id": 104,
+        "title": "Conference closing and contest winners announcements",
+        "description": "Make sure you won't miss closing ceremony, all gifts from out sponsors and partners will find their owners during this session.",
+        "image": "/images/backgrounds/closing.jpg",
+        "colspan": true,
+        "speakers": [
+            14
+        ]
+    },
+    "105": {
+        "id": 105,
+        "title": "Afterparty & Networking",
+        "description": "Afterparty is a great time to have some fun and meet new people",
+        "image": "/images/backgrounds/party.jpg",
+        "colspan": true
+    },
+    "106": {
+        "id": 106,
+        "title": "TBD",
+        "description": "."
+    },
+    "107": {
+        "id": 107,
+        "title": "TBD",
+        "description": "."
+    },
+    "108": {
+        "id": 108,
+        "title": "TBD",
+        "description": "."
+    },
+    "109": {
+        "id": 109,
+        "title": "TBD",
+        "description": "."
+    },
+    "110": {
+        "id": 110,
+        "title": "Build and Battle",
+        "description": "Learn Arduino, program you own low cost sumo bot and compete with each other. Engage in other maker activities."
+    },
+
+    "111": {
+        "id": 111,
+        "title": "Snakes on a Droid",
+        "description": "In this talk we’ll get our feet wet with developing Android apps in Python using Kivy. We’ll start with a brief intro to Python and discuss why you might want to build Android apps in Python. Then we’ll dive into Kivy by looking at examples of Kivy applications, followed by building our own \"hello world\" app. Finally, we'll compile our app into an APK and demo it in the Android emulator.",
+        "speakers": [
+            12
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "Python"
+        ]
+    },
+    "112": {
+        "id": 112,
+        "title": "Android and the Seven Dwarfs",
+        "description": "Android is a great OS and it's Java based programming environment has offered an easy learning curve, great adaptation but also brought its own pitfalls and problems. The httpclient shipped with android is buggy and outdated, Java's programming model does not encourage developers to use separate threads for non-ui related tasks, use of anonymous inner classes for listeners create a burden and ugly code and of course this list goes on. This talk will focus on seven great open source libraries which do fix Android's programming model, the way jquery fixes javascript. The libraries will be covered with example code, advantages, disadvantages, internals and when to use them.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "Libraries",
+            "Frameworks",
+            "Tooling"
+        ]
+    },
+    "113": {
+        "id": 113,
+        "title": "The fault in our Apps: Android Design Patterns",
+        "description": "In 1994, the famous Gang of Four, published their book \"Design Patterns: Elements of Reusable Object-Oriented Software\" and since then any developer who wants to look cool and respected is obligated to use them in their daily chats. Actually it is more than that, Design Patterns are decades of collective wisdom to provide solutions for common problems in software. Android makes heavy use of design patterns both internally and at the SDK level. This talk will focus on classical GoF design patterns and how they can be implemented on Android as well as covering patterns which are specific to Android and mobile software ecosystem.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "General",
+            "Architecture",
+            "GoF"
+        ]
+    },
+    "114": {
+        "id": 114,
+        "title": "OpenJDK for the a'N'droidlings",
+        "description": "The day has come, finally with version N, Android moved to OpenJDK from the old rusty \"Harmony\" based friend. With the move to OpenJDK finally aNdroid finally has access to many new language features lambdas, streams, default methods on interfaces and many more. You have listened all those features in Java talks for years, this time come and watch  how the new language features and invoke dynamics will change your aNdroid world.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "OpenJDK",
+            "Byte code",
+            "InvokeDynamic"
+        ]
+    },
+    "115": {
+        "id": 115,
+        "title": "50 Shades of Android Studio",
+        "description": "After years of Eclipse experience does Android Studio inflict you pain? Don't worry! Android Studio is getting better than ever each day! Whether you are a seasoned IntelliJ developer or an Eclipse veteran, Android Studio had many hidden features and gems which can unleash your true potential. This session will cover many tips, tricks and techniques varying from shortcuts, best practices, writing gradle and intellij plugins.",
+        "speakers": [
+            6
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Android",
+            "Eclipse",
+            "Maven",
+            "IntelliJ",
+            "Gradle"
+        ]
+    },
+
+    "121": {
+        "id": 121,
+        "title": "Golang",
+        "description": "The credentials of the Go programming language are impressive - created at Google by luminaries in computer science: Rob Pike, Ken Thompson, and Robert Griesemer. These are the same individuals who helped create the C programming language, the Unix operating system, and the UTF-8 coding scheme. When I heard these credentials, I knew I needed to learn this language. The Go programming language, which is also known as Golang, was created to be a modern programming language that easily uses multiple cores, easily implements concurrency, easily works in distributed environments, and easily allows the programmer to write programs - it has a very lean and user-friendly syntax. In 2006, Intel released the first multiple-core CPU. In 2007, Google began developing Golang. In 2009, Google released Golang as an open source project. In March of 2012, Golang version 1 was released.  Go makes it easy to build simple, reliable, and efficient software. Go provides the ability for \"server-side\" programming. Traditional choices for server-side languages have included PHP, ASP, and JSP. Currently popular server-side programming languages include Ruby, Python, and Node.js. While there are advantages and disadvantages to all languages, no server-side language is going to be faster than \"Go.\" Couple the speed of Go with Google App Engine and Cloud Storage, and you are now using the exact same architecture as Google. This means that your web apps are going to be incredibly fast and will easily scale to millions of users. Come learn about one of the greatest languages ever created. You will leave with resources and code samples to start making all of your software and apps really go.",
+        "speakers": [
+            13
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Go"
+        ]
+    },
+    "122": {
+        "id": 122,
+        "title": "App Engine",
+        "description": "Google's App engine allows you to easily build web applications running on the cloud. Google App Engine (often referred to as GAE or simply App Engine) is a platform as a service (PaaS) cloud computing platform for developing and hosting web applications in Google-managed data centers. Applications are sandboxed and run across multiple servers. App Engine offers automatic scaling for web applications — as the number of requests increases for an application, App Engine automatically allocates more resources for the web application to handle the additional demand. Google App Engine is free up to a certain level of consumed resources. Fees are charged for additional storage, bandwidth, or instance hours required by the application. It was first released as a preview version in April 2008 and came out of preview in September 2011. Come learn how to build web apps using the same infrastructure as Google!",
+        "speakers": [
+            13
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "App Engine",
+            "GAE",
+            "Cloud"
+        ]
+    },
+    "123": {
+        "id": 123,
+        "title": "TBD",
+        "description": "Stay tuned",
+        "speakers": [
+            4
+        ],
+        "complexity": "Intermediate",
         "tags": [
             "Cloud"
         ]
     },
-    "101": {
-        "id": 101,
+    "124": {
+        "id": 124,
         "title": "TBD",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum diam eu congue pharetra. Morbi laoreet lorem tincidunt felis bibendum, vitae posuere purus suscipit. Aliquam erat volutpat. Nam cursus erat sed tellus finibus mollis. Suspendisse placerat auctor eros, a semper lacus luctus quis. Quisque vel neque id erat accumsan facilisis. Donec quis ante quam. Praesent porta, ipsum et blandit pretium, elit neque finibus mi, fringilla aliquet nisl odio ullamcorper urna. Donec ullamcorper dui ac ante viverra lacinia. Morbi a leo sagittis, laoreet ipsum sit amet, fringilla nunc. Curabitur auctor eget arcu a tempus. Nulla in congue dui. Duis at ultricies tortor. Nunc aliquam odio eu risus pretium, a ornare lorem varius.",
+        "description": "Stay tuned",
         "speakers": [
-            1
+            4
         ],
-        "language": "English",
-        "complexity": "Beginner",
+        "complexity": "Intermediate",
         "tags": [
             "Cloud"
         ]
+    },
+    "125": {
+        "id": 125,
+        "title": "TBD",
+        "description": "Stay tuned",
+        "speakers": [
+            5
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Firebase"
+        ]
+    },
+
+    "131": {
+        "id": 131,
+        "title": "Progressive Web App in the Wild",
+        "description": "We'll look at the big picture related to Progressive Web Apps and take a look at a real world project. We'll see advanatges and disadvantages, and even touch technologies as NFC and Bluetooth LE.",
+        "speakers": [
+            11
+        ],
+        "complexity": "Beginner",
+        "tags": [
+            "Progressive Web Apps",
+            "NFC",
+            "BLE"
+        ]
+    },
+    "132": {
+        "id": 132,
+        "title": "What the Font?",
+        "description": "Integrating common Machine Learning techniques within a Progressive Web App.",
+        "speakers": [
+            10
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Progressive Web Apps",
+            "Machine Learning"
+        ]
+    },
+    "133": {
+        "id": 133,
+        "title": "Developing Multi-Tenant Applications on GCP and App Engine",
+        "description": "Stay Tuned...",
+        "speakers": [
+            9
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "App Engine",
+            "GAE",
+            "Compute Engine",
+            "Cloud"
+        ]
+    },
+    "134": {
+        "id": 134,
+        "title": "AMP",
+        "description": "Stay Tuned...",
+        "speakers": [
+            15
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "AMP"
+        ]
+    },
+    "135": {
+        "id": 135,
+        "title": "TBD",
+        "description": "Stay Tuned...",
+        "speakers": [
+            7
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "General"
+        ]
+    },
+    "136": {
+        "id": 136,
+        "title": "DevTools",
+        "description": "Stay Tuned...",
+        "speakers": [
+            8
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Chrome Dev Tools"
+        ]
+    },
+
+    "141": {
+        "id": 141,
+        "title": "From AMP to PWA",
+        "description": "Accelerated Mobile Pages (AMP) delivers outstanding page-load performance for users browsing content on the mobile web, which is hugely important on limited or flaky networks. Progressive Web Apps (PWA) deliver reliable performance for re-visits to sites thanks to Service Workers and allows unprecedented engagement via push notifications and the App Shell architecture. AMP gets content in front of users fast - PWAs enable rich experiences and engagement. What if I told you there’s a way to utilize the unique power of both? To build a web experience that loads in an instant and upgrades you to maximum interactivity and engagement? We’re making it happen. Come to learn how.",
+        "speakers": [
+            1
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "AMP",
+            "Web",
+            "Progressive Web Apps"
+        ]
+    },
+    "142": {
+        "id": 142,
+        "title": "The Wonder Web",
+        "description": "Optimizing the Web for Super Performance.",
+        "speakers": [
+            3
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "Web",
+            "UX"
+        ]
+    },
+    "143": {
+        "id": 143,
+        "title": "TBD",
+        "description": "Stay Tuned...",
+        "speakers": [
+            7
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "General"
+        ]
+    },
+    "144": {
+        "id": 144,
+        "title": "TBD",
+        "description": "Stay Tuned...",
+        "speakers": [
+            7
+        ],
+        "complexity": "Intermediate",
+        "tags": [
+            "General"
+        ]
     }
+
 }

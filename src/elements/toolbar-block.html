@@ -38,8 +38,9 @@
               </paper-tab>
             </template>
           </paper-tabs>
+          
           <div class="action-button-wrapper" layout="" horizontal="" center-center="">
-            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
+            <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyTicketClick" title="[[localize('buy-tooltip')]]">
               <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
             </a>
           </div>
@@ -49,7 +50,7 @@
 
   </template>
 
-  <script>!function(){"use strict";Polymer({is:"toolbar-block",behaviors:[HOVERBOARD.LocalizeBehavior,HOVERBOARD.UtilsBehavior],properties:{hideLogo:{type:Boolean}},observers:["_stylesChanged(app.headerSettings)"],togglePanel:function(){HOVERBOARD.Elements.Template.toggleDrawer()},_stylesChanged:function(e){e&&(this.customStyle["--header-color"]=e.fontColor,this.hideLogo=e.hideLogo,this.updateStyles())},_trackBuyClick:function(){HOVERBOARD.Analytics.trackEvent("ticket","buy_click","toolbar")}})}();</script>
+  <script>!function(){"use strict";Polymer({is:"toolbar-block",behaviors:[HOVERBOARD.LocalizeBehavior,HOVERBOARD.UtilsBehavior],properties:{hideLogo:{type:Boolean}},observers:["_stylesChanged(app.headerSettings)"],togglePanel:function(){HOVERBOARD.Elements.Template.toggleDrawer()},_stylesChanged:function(t){t&&(this.customStyle["--header-color"]=t.fontColor,this.hideLogo=t.hideLogo,this.updateStyles())},_trackBuyTicketClick:function(){HOVERBOARD.Analytics.trackEvent("ticket","buy_click","toolbar")},_trackBuyTshirtClick:function(){HOVERBOARD.Analytics.trackEvent("tshirt","buy_click","toolbar")}})}();</script>
 
 </dom-module>
 </body></html>

@@ -4,19 +4,19 @@
     "logos": [
       {
         "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
+        "url": "//www.google.com.ua/intl/en/about/",
         "logoUrl": "../images/logos/google.svg",
         "width": 170
       },
       {
         "name": "GDG Fresno",
-        "url": "http://www.meetup.com/googledevelopers/",
+        "url": "//www.meetup.com/googledevelopers/",
         "logoUrl": "../images/logos/GDG_Fresno.svg",
         "width": 170
       },
       {
         "name": "Fresno City College",
-        "url": "http://fresnocitycollege.edu/",
+        "url": "//fresnocitycollege.edu/",
         "logoUrl": "../images/logos/fcc_logo_wordmark.png",
         "width": 170
       }
@@ -27,27 +27,27 @@
     "logos": [
       {
         "name": "GDG Visalia",
-        "url": "http://www.meetup.com/GDG-Visalia-Google-Developer-Group/",
+        "url": "//www.meetup.com/GDG-Visalia-Google-Developer-Group/",
         "logoUrl": "../images/logos/GDG_Visalia.svg"
       },
       {
         "name": "GDG Oakdale",
-        "url": "http://www.meetup.com/GDG-Oakdale/",
+        "url": "//www.meetup.com/GDG-Oakdale/",
         "logoUrl": "../images/logos/GDG_Oakdale.svg"
       },
       {
         "name": "GDG Modesto",
-        "url": "http://www.meetup.com/GDG-Modesto-Google-Developer-Group/",
-        "logoUrl": "../images/logos/GDG_Modesto.png"
+        "url": "//www.meetup.com/GDG-Modesto-Google-Developer-Group/",
+        "logoUrl": "../images/logos/GDG_Modesto.svg"
       },
       {
         "name": "Bitwise",
-        "url": "https://bitwiseindustries.com/",
+        "url": "//bitwiseindustries.com/",
         "logoUrl": "../images/logos/bitwise.png"
       },
       {
         "name": "Fresno Ideaworks",
-        "url": "https://fresnoideaworks.org/",
+        "url": "//fresnoideaworks.org/",
         "logoUrl": "../images/logos/ideaworks-logo-invert.png"
       }
     ]

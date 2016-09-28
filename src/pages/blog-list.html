@@ -16,71 +16,7 @@
 
   </template>
 
-  <script>
-    (function () {
-      'use strict';
-
-      Polymer({
-
-        is: 'blog-list',
-
-        behaviors: [
-          Polymer.NeonAnimationRunnerBehavior,
-          Polymer.NeonSharedElementAnimatableBehavior,
-          HOVERBOARD.PageBehavior
-        ],
-
-        properties: {
-          posts: {
-            type: Array
-          },
-
-          animationConfig: {
-            type: Object,
-            value: function () {
-              return {
-                'entry': [{
-                  name: 'fade-in-animation',
-                  animation: 'fade-in-animation',
-                  node: this,
-                  timing: {
-                    delay: 500
-                  }
-                }],
-                'exit': [{
-                  name: 'fade-out-animation',
-                  animation: 'fade-out-animation',
-                  node: this
-                }]
-              };
-            }
-          }
-        },
-
-        _updateCascadedNodes() {
-          var cascaded = Polymer.dom(this.root).querySelectorAll('[cascaded]');
-          var cascadedArray = Array.prototype.slice.call(cascaded);
-          this.animationConfig.entry.push({
-            name: 'cascaded-animation',
-            animation: 'transform-animation',
-            transformFrom: 'translate3d(0, 100%, 0)',
-            timing: {
-              delay: 500
-            },
-            nodes: cascadedArray
-          });
-          this.animationConfig.exit.push({
-            name: 'cascaded-animation',
-            animation: 'transform-animation',
-            transformTo: 'translate3d(0, 100%, 0)',
-            nodes: cascadedArray
-          });
-        }
-
-      });
-
-    }());
-  </script>
+  <script>!function(){"use strict";Polymer({is:"blog-list",behaviors:[Polymer.NeonAnimationRunnerBehavior,Polymer.NeonSharedElementAnimatableBehavior,HOVERBOARD.PageBehavior],properties:{posts:{type:Array},animationConfig:{type:Object,value:function(){return{entry:[{name:"fade-in-animation",animation:"fade-in-animation",node:this,timing:{delay:500}}],exit:[{name:"fade-out-animation",animation:"fade-out-animation",node:this}]}}}},_updateCascadedNodes:function(){var a=Polymer.dom(this.root).querySelectorAll("[cascaded]"),n=Array.prototype.slice.call(a);this.animationConfig.entry.push({name:"cascaded-animation",animation:"transform-animation",transformFrom:"translate3d(0, 100%, 0)",timing:{delay:500},nodes:n}),this.animationConfig.exit.push({name:"cascaded-animation",animation:"transform-animation",transformTo:"translate3d(0, 100%, 0)",nodes:n})}})}();</script>
 
 </dom-module>
 </body></html>

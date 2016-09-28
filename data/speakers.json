@@ -2,58 +2,6 @@
     "1": {
         "id": 1,
         "featured": true,
-        "name": "Sandeep Dinesh",
-        "title": "Developer Advocate",
-        "company": "Google",
-        "companyLogo": "/images/logos/google.svg",
-        "country": "",
-        "photoUrl": "/images/people/sandeep_dinesh.jpg",
-        "shortBio": "Sandeep is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
-        "bio": "Sandeep started coding and creating websites when he was 12 and hasn't stopped. He is passionate about building easy-to-use products people love. Before Google, he founded an IoT startup in agriculture and developed educational HTML5 games. At Google, Sandeep's goal is to make cloud easy and help developers create the next big thing. Sandeep loves video games, making music, and martial arts, and has Bachelors in Marketing and Computer Science.",
-        "tags": [
-            "Cloud",
-            "Compute Engine",
-            "Firebase"
-        ],
-        "badges": [
-
-        ],
-        "socials": [
-            {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/106298452631478443711/posts"
-            }
-        ]
-    },
-    "2": {
-        "id": 2,
-        "featured": true,
-        "name": "Martin Omander",
-        "title": "Program Manager for Google Developer Relations",
-        "company": "Google",
-        "companyLogo": "/images/logos/google.svg",
-        "country": "",
-        "photoUrl": "/images/people/martin_omander.jpg",
-        "shortBio": "Martin helps a lot for GDGs in North America and all around the world. He is a great coder and father too.",
-        "bio": "Alignment: Lawful Good",
-        "tags": [
-            "Everything Google",
-            "GDGs"
-        ],
-        "badges": [
-        ],
-        "socials": [
-            {
-                "icon": "gplus",
-                "name": "Google+",
-                "link": "https://plus.google.com/u/0/+MartinOmander"
-            }
-        ]
-    },
-    "3": {
-        "id": 3,
-        "featured": true,
         "name": "Paul Bakaus",
         "title": "Googler, AMP expert",
         "company": "Google",
@@ -73,34 +21,143 @@
         "socials": [
           {
             "icon": "gplus",
-            "link": "http://plus.google.com/106129485759840435120",
+            "link": "//plus.google.com/106129485759840435120",
             "name": "Google+"
           },
           {
             "icon": "website",
-            "link": "https://paulbakaus.com/",
+            "link": "//paulbakaus.com/",
             "name": "Blog"
           },
           {
             "icon": "github",
-            "link": "https://github.com/pbakaus",
+            "link": "//github.com/pbakaus",
             "name": "Github"
           },
           {
             "icon": "twitter",
-            "link": "http://twitter.com/pbakaus",
+            "link": "//twitter.com/pbakaus",
             "name": "Twitter"
           },
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/muratyener",
+            "link": "//www.linkedin.com/in/paulbakaus",
             "name": "Linkedin"
           }
+        ]
+    },
+    "2": {
+        "id": 2,
+        "featured": true,
+        "name": "Nilay Yener",
+        "title": "Program Manager for Google Developer Relations",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.svg",
+        "country": "",
+        "photoUrl": "/images/people/nilay_yener.jpg",
+        "shortBio": "Nilay helps a lot for GDGs in North America and all around the world.",
+        "bio": ".",
+        "tags": [
+            "General",
+            "Community",
+            "GDGs"
+        ],
+        "badges": [
+        ],
+        "socials": [
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "//plus.google.com/+NilayCoşkunYener"
+            }
+        ]
+    },
+    "3": {
+        "id": 3,
+        "featured": true,
+        "name": "Laura Krake",
+        "title": "Illustrator and Graphic Designer",
+        "company": "Stickman Ventures",
+        "companyLogo": "/images/logos/stickman_ventures.png",
+        "country": "",
+        "photoUrl": "/images/people/laura_krake.jpg",
+        "shortBio": "Graphic Designer and Illustrator determined to enhance UI/UX.",
+        "bio": "Laura graduated from the University of St. Thomas, MN with a B.A. in Spanish Linguists and a B.A. in Psychology. She applies her knowledge of human behavior and culture to technically architect everything from complex illustrations to minimalist vectors. Her favorite pastimes include painting digitally, playing Ultimate Frisbee, and ballroom dancing.",
+        "tags": [
+            "UX",
+            "Web"
+        ],
+        "badges": [
+        ],
+        "socials": [
+            {
+                "icon": "linkedin",
+                "name": "LinkedIn",
+                "link": "//www.linkedin.com/in/laura-krake-b7636199"
+            },
+            {
+                "icon": "twitter",
+                "link": "//twitter.com/LauraKrake",
+                "name": "Twitter"
+            }
         ]
     },
     "4": {
         "id": 4,
         "featured": true,
+        "name": "Sandeep Dinesh",
+        "title": "Developer Advocate",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.svg",
+        "country": "",
+        "photoUrl": "/images/people/sandeep_dinesh.jpg",
+        "shortBio": "Sandeep is a Developer Advocate at Google, currently focused on helping developers with Google Cloud...",
+        "bio": "Sandeep started coding and creating websites when he was 12 and hasn't stopped. He is passionate about building easy-to-use products people love. Before Google, he founded an IoT startup in agriculture and developed educational HTML5 games. At Google, Sandeep's goal is to make cloud easy and help developers create the next big thing. Sandeep loves video games, making music, and martial arts, and has Bachelors in Marketing and Computer Science.",
+        "tags": [
+            "Cloud",
+            "Compute Engine",
+            "Firebase"
+        ],
+        "badges": [
+        ],
+        "socials": [
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "//plus.google.com/u/0/106298452631478443711/posts"
+            }
+        ]
+    },
+    "5": {
+        "id": 5,
+        "featured": false,
+        "name": "Martin Omander",
+        "title": "Program Manager for Google Developer Relations",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.svg",
+        "country": "",
+        "photoUrl": "/images/people/martin_omander.jpg",
+        "shortBio": "Martin helps a lot for GDGs in North America and all around the world. He is a great coder and father too.",
+        "bio": "Alignment: Lawful Good",
+        "tags": [
+            "General",
+            "Community",
+            "GDGs",
+            "Firebase"
+        ],
+        "badges": [
+        ],
+        "socials": [
+            {
+                "icon": "gplus",
+                "name": "Google+",
+                "link": "//plus.google.com/+MartinOmander"
+            }
+        ]
+    },
+    "6": {
+        "id": 6,
+        "featured": false,
         "name": "Murat Yener",
         "title": "Android GDE, Android Geek, GDG Istambul co-organizer",
         "company": "Intel Corporation",
@@ -118,32 +175,42 @@
             {
                 "name": "Android GDE",
                 "description": "Android Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/murat-yener.html"
+                "link": "//developers.google.com/experts/people/murat-yener.html"
+            },
+            {
+                "name": "Java Champion",
+                "description": "Highest Honor in the Java Developer Realm",
+                "link": "//blogs.oracle.com/java/new-java-champion:-murat-yener"
             }
         ],
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://plus.google.com/114028338330916709688",
+            "link": "//plus.google.com/114028338330916709688",
             "name": "Google+"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/yenerm",
+            "link": "//twitter.com/yenerm",
             "name": "Twitter"
           },
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/muratyener",
+            "link": "//www.linkedin.com/in/muratyener",
             "name": "Linkedin"
+          },
+          {
+            "icon": "website",
+            "link": "//muratyener.com/",
+            "name": "Blog"
           }
         ]
     },
-    "5": {
-        "id": 5,
-        "featured": true,
+    "7": {
+        "id": 7,
+        "featured": false,
         "name": "Justin Ribeiro",
-        "title": "GDE and a GDG Mentor in North America Pacific Region",
+        "title": "GDE and GDG Mentor in North America Pacific Region",
         "company": "Stickman Ventures, Inc.",
         "companyLogo": "/images/logos/GDG_Oakdale.svg",
         "country": "",
@@ -160,34 +227,34 @@
             {
                 "name": "GDE, Coder and presenter",
                 "description": "Wearables, IoT Google Developer Expert",
-                "link": "https://developers.google.com/experts/people/justin-ribeiro.html"
+                "link": "//developers.google.com/experts/people/justin-ribeiro.html"
             }
         ],
         "socials": [
           {
             "icon": "github",
-            "link": "https://github.com/justinribeiro",
+            "link": "//github.com/justinribeiro",
             "name": "Github"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/justinribeiro",
+            "link": "//twitter.com/justinribeiro",
             "name": "Twitter"
           },
           {
             "icon": "website",
-            "link": "https://www.justinribeiro.com/",
+            "link": "//www.justinribeiro.com/",
             "name": "Blog"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/+justinribeiro",
+            "link": "//google.com/+justinribeiro",
             "name": "Google+"
           }
         ]
     },
-    "6": {
-        "id": 6,
+    "8": {
+        "id": 8,
         "featured": false,
         "name": "James Duvall IV",
         "title": "Software Engineer, Speaker, GDG co-organizer",
@@ -207,18 +274,68 @@
         "socials": [
           {
             "icon": "twitter",
-            "link": "https://twitter.com/jamesduvall",
+            "link": "//twitter.com/jamesduvall",
             "name": "Twitter"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/+JamesDuvallIV",
+            "link": "//google.com/+JamesDuvallIV",
             "name": "Google+"
           }
         ]
     },
-    "7": {
-        "id": 7,
+    "9": {
+        "id": 9,
+        "featured": false,
+        "name": "Walter Kuppens",
+        "title": "Software Engineer experienced in cloud technologies.",
+        "company": "Stickman Ventures, Inc.",
+        "companyLogo": "/images/logos/stickman_ventures.png",
+        "country": "",
+        "photoUrl": "/images/people/walter_kuppens.jpg",
+        "shortBio": "Passionate Software developer, wants to know why things work.",
+        "bio": "Walter is a software developer with an interest in web development and some more esoteric things like emulator development. He has worked with many technology stacks such as Go, Python, Rust, AWS, and GCP to build scalable applications for the modern web.",
+        "tags": [
+            "Compute Engine",
+            "App Engine"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "website",
+            "link": "//walterkuppens.com/",
+            "name": "blog"
+          }
+        ]
+    },
+    "10": {
+        "id": 10,
+        "featured": false,
+        "name": "Paul Perrone",
+        "title": "Software Enginner and graduate student",
+        "company": "Stickman Ventures, Inc.",
+        "companyLogo": "/images/logos/stickman_ventures.png",
+        "country": "",
+        "photoUrl": "/images/people/paul_perrone.jpg",
+        "shortBio": "Data Analyst Enraptured with Machine Learning, Literature, and Video Games",
+        "bio": "Paul is a graduate of Claremont McKenna College with a bachelor's degree in Economics. He has worked with numerous APIs including the Riot Games API, the Twitter API, the Twitch API, and numerous Google Analytics stacks. Paul enjoys spending his free time studying Machine Learning, Literature, and Video Games.",
+        "tags": [
+            "Progressive Web Apps",
+            "Machine Learning"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "linkedin",
+            "link": "//www.linkedin.com/in/paulbperrone",
+            "name": "Linkedin"
+          }
+        ]
+    },
+    "11": {
+        "id": 11,
         "featured": false,
         "name": "Csaba Toth",
         "title": "Universal software engineer (can tackle any problem), Speaker, User Group junkie",
@@ -229,8 +346,8 @@
         "shortBio": "All-round software engineer (can tackle any problem), speaker, organizer",
         "bio": "Full stack developer in Fresno and a user group junkie. He was C/C++ CAD software developer in the past and actively worked and working with .NET, Java and Python technology stacks including JS/HTML5/CSS front end (besides many).",
         "tags": [
-            "WPA",
-            "GCP",
+            "Progressive Web Apps",
+            "Compute Engine",
             "Android"
         ],
         "badges": [
@@ -238,23 +355,135 @@
         "socials": [
           {
             "icon": "github",
-            "link": "https://github.com/MrCsabaToth",
+            "link": "//github.com/MrCsabaToth",
             "name": "Github"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/tocsa2",
+            "link": "//twitter.com/tocsa2",
             "name": "Twitter"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/CsabaTothMr",
+            "link": "//google.com/CsabaTothMr",
             "name": "Google+"
           },
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/csabatothdev",
+            "link": "//www.linkedin.com/in/csabatothdev",
             "name": "Linkedin"
+          }
+        ]
+    },
+    "12": {
+        "id": 12,
+        "featured": false,
+        "name": "Derek Payton",
+        "title": "Software Developer and CTO",
+        "company": "Edit, LLC",
+        "companyLogo": "/images/logos/edit_llc.png",
+        "country": "",
+        "photoUrl": "/images/people/derek_payton.jpg",
+        "shortBio": "Derek is a software developer, Open Source contributor, community organizer, and shameless Python fanboy.",
+        "bio": "Derek built his first web page when he was 11 years old. The web has come a long way since 1998, and so has he. He first picked up Python in 2007 and hasn’t put it down since. He’s built dozens of websites and applications with Django, including sites for companies like DC Shoes, Sony, and Alpinestars. He’s built exactly one Android app before and would love to build more, except for that whole Java thing. He’s currently a Software Developer and CTO at Edit, LLC in Fresno, and organizes Fresno Python and Fresno Hack Night.",
+        "tags": [
+            "Python",
+            "Android",
+            "Community"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "github",
+            "link": "//github.com/dmpayton",
+            "name": "Github"
+          },
+          {
+            "icon": "twitter",
+            "link": "//twitter.com/dmpayton",
+            "name": "Twitter"
+          }
+        ]
+    },
+    "13": {
+        "id": 13,
+        "featured": false,
+        "name": "Todd McLeod",
+        "title": "CIT Profesor, Speaker, Go advocate",
+        "company": "Fresno City College, California State University Fresno",
+        "companyLogo": "/images/logos/fcc_logo_wordmark.png",
+        "country": "",
+        "photoUrl": "/images/people/todd_mcleod.jpg",
+        "shortBio": "CIT Profesor, Speaker",
+        "bio": "Todd McLeod is tenured faculty at Fresno City College and also work at California State University Fresno. Recent areas of focus include Go, Python, Java, Android, and Git.",
+        "tags": [
+            "Go",
+            "App Engine"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "//plus.google.com/+ToddMcLeod",
+            "name": "Google+"
+          }
+        ]
+    },
+    "14": {
+        "id": 14,
+        "featured": false,
+        "name": "Rio Waller",
+        "title": "Educator, GDG leader and motivational speaker",
+        "company": "Fresno City College",
+        "companyLogo": "/images/logos/fcc_logo_wordmark.png",
+        "country": "",
+        "photoUrl": "/images/people/rio_waller.jpg",
+        "shortBio": "...",
+        "bio": "...",
+        "tags": [
+            "Community",
+            "General",
+            "Google"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "//plus.google.com/+RioWaller",
+            "name": "Google+"
+          },
+          {
+            "icon": "twitter",
+            "link": "//twitter.com/riowaller",
+            "name": "Twitter"
+          }
+        ]
+    },
+    "15": {
+        "id": 15,
+        "featured": false,
+        "name": "Jim Hutton",
+        "title": "Software Engineer, GDG leader",
+        "company": "",
+        "companyLogo": "/images/logos/GDG_Modesto.svg",
+        "country": "",
+        "photoUrl": "/images/people/jim_hutton.jpg",
+        "shortBio": "...",
+        "bio": "...",
+        "tags": [
+            "AMP",
+            "Web"
+        ],
+        "badges": [
+        ],
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "//plus.google.com/+JimHutson",
+            "name": "Google+"
           }
         ]
     }

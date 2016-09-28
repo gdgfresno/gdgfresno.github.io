@@ -8,12 +8,12 @@
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://google.com/+RioWaller",
+            "link": "//google.com/+RioWaller",
             "name": "Google+"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/riowaller",
+            "link": "//twitter.com/riowaller",
             "name": "Twitter"
           }
         ],
@@ -25,7 +25,7 @@
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://plus.google.com/u/0/116552287288266856649",
+            "link": "//plus.google.com/u/0/116552287288266856649",
             "name": "Google+"
           }
         ],
@@ -37,12 +37,12 @@
         "socials": [
           {
             "icon": "facebook",
-            "link": "https://www.facebook.com/designerwiththeheadscarf",
+            "link": "//www.facebook.com/designerwiththeheadscarf",
             "name": "Facebook"
           },
           {
             "icon": "gplus",
-            "link": "https://plus.google.com/b/114769570436363155784/106036726594291409241",
+            "link": "//plus.google.com/b/114769570436363155784/106036726594291409241",
             "name": "Google+"
           }
         ],
@@ -54,17 +54,17 @@
         "socials": [
           {
             "icon": "github",
-            "link": "https://github.com/MrCsabaToth",
+            "link": "//github.com/MrCsabaToth",
             "name": "Github"
           },
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/csabatothdev",
+            "link": "//www.linkedin.com/in/csabatothdev",
             "name": "Linkedin"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/tocsa2",
+            "link": "//twitter.com/tocsa2",
             "name": "Twitter"
           }
         ],
@@ -81,7 +81,7 @@
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://google.com/+AhsenBaig",
+            "link": "//google.com/+AhsenBaig",
             "name": "Google+"
           }
         ],
@@ -98,22 +98,22 @@
         "socials": [
           {
             "icon": "github",
-            "link": "https://github.com/justinribeiro",
+            "link": "//github.com/justinribeiro",
             "name": "Github"
           },
           {
             "icon": "twitter",
-            "link": "https://twitter.com/justinribeiro",
+            "link": "//twitter.com/justinribeiro",
             "name": "Twitter"
           },
           {
             "icon": "website",
-            "link": "https://www.justinribeiro.com/",
+            "link": "//www.justinribeiro.com/",
             "name": "Blog"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/+justinribeiro",
+            "link": "//google.com/+justinribeiro",
             "name": "Google+"
           }
         ],
@@ -125,17 +125,17 @@
         "socials": [
           {
             "icon": "twitter",
-            "link": "https://twitter.com/jamesduvall",
+            "link": "//twitter.com/jamesduvall",
             "name": "Twitter"
           },
           {
             "icon": "gplus",
-            "link": "https://google.com/+JamesDuvallIV",
+            "link": "//google.com/+JamesDuvallIV",
             "name": "Google+"
           },
           {
             "icon": "github",
-            "link": "https://github.com/jamesduvall",
+            "link": "//github.com/jamesduvall",
             "name": "Github"
           }
         ],
@@ -152,7 +152,7 @@
         "socials": [
           {
             "icon": "gplus",
-            "link": "https://plus.google.com/+JimHutson",
+            "link": "//plus.google.com/+JimHutson",
             "name": "Google+"
           }
         ],
@@ -164,12 +164,12 @@
         "socials": [
           {
             "icon": "linkedin",
-            "link": "https://www.linkedin.com/in/alec-keyl-b9bbab55",
+            "link": "//www.linkedin.com/in/alec-keyl-b9bbab55",
             "name": "Linkedin"
           },
           {
             "icon": "github",
-            "link": "https://github.com/akeyl/",
+            "link": "//github.com/akeyl/",
             "name": "Github"
           }
         ],

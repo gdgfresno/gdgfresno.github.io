@@ -10,4 +10,4 @@ If someone is bothering you, please tell GDG Organizers immediately and they wil
 
 #### Contacts:
 
-- DevFest Organizers, [devfest@google.com](mailto:devfest@google.com)
+- DevFest Organizers, [rio@gdgfresno.com](mailto:rio@gdgfresno.com)

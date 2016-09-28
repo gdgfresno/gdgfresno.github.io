@@ -20,7 +20,7 @@
   <template>
 
     <style include="shared-styles">:host{display:block;padding:40px 0;position:relative;overflow:hidden;min-height:300px;--paper-item-disabled-color:var(--primary-text-color);}google-map,
-      .disable-map-events{@apply (--layout-fit);}.container{@apply (--layout-horizontal);}.card-wrapper{@apply (--layout-horizontal);@apply (--layout-flex);@apply (--layout-around-justified);}.card-content{padding-right:8px;padding-left:8px;}.card{--paper-card-header-text:{color:#FFFFFF;font-weight:300;};min-width:320px;max-width:400px;background:#FFFFFF;}paper-icon-item{--paper-item-disabled-color:inherit;}paper-icon-item iron-icon{--iron-icon-fill-color:var(--default-primary-color);}.card .bottom-link{color:var(--secondary-text-color);}.header{height:250px;position:relative;}.header-image{@apply (--layout-fit);width:100%;background-size:cover;background-position:50% 50%;transition:background-image 1s ease-in-out;will-change:background-image;}.title-text{padding:16px;position:absolute;bottom:0;font-size:24px;color:#fff;}.additional-space{display:none;}@media (min-width: 601px){.card{min-width:400px;}}@media (min-width: 961px){:host{padding:100px 0;}.additional-space{@apply (--layout);@apply (--layout-flex);}}</style>
+      .disable-map-events{@apply (--layout-fit);}.container{@apply (--layout-horizontal);}.card-wrapper{@apply (--layout-horizontal);@apply (--layout-flex);@apply (--layout-around-justified);}.card-content{padding-right:8px;padding-left:8px;}.card{--paper-card-header-text:{color:#FFFFFF;font-weight:300;};min-width:320px;max-width:400px;background:#FFFFFF;}.video-item{@apply (--layout);padding-right:24px;width:100%;min-width:100%;}.thumbnail{@apply (--layout-fit);}.play-video{@apply (--layout-fit);@apply (--layout-vertical);@apply (--layout-center-center);margin:0 auto;cursor:pointer;background:rgba(0, 0, 0, 0.15);}.play-icon{--iron-icon-width:48px;--iron-icon-height:48px;--iron-icon-fill-color:#fff;}paper-icon-item{--paper-item-disabled-color:inherit;}paper-icon-item iron-icon{--iron-icon-fill-color:var(--default-primary-color);}.card .bottom-link{color:var(--secondary-text-color);}.header{height:250px;position:relative;}.header-image{@apply (--layout-fit);width:100%;background-size:cover;background-position:50% 50%;transition:background-image 1s ease-in-out;will-change:background-image;}.title-text{padding:16px;position:absolute;bottom:0;font-size:24px;color:#fff;}.additional-space{display:none;}@media (min-width: 601px){.card{min-width:400px;}.video-item{width:400px;min-width:400px;}.video-item:hover paper-card{@apply (--shadow-elevation-2dp);}}@media (min-width: 961px){:host{padding:100px 0;}.additional-space{@apply (--layout);@apply (--layout-flex);}}</style>
 
     <template is="dom-if" if="[[selected]]">
       <google-map zoom="[[app.data.location.pointer.zoom]]" latitude="[[app.data.location.mapCenter.latitude]]" longitude="[[app.data.location.mapCenter.longitude]]" api-key="[[app.data.location.apiKey]]" styles="[[options]]" disable-zoom="" disable-default-ui="">
@@ -34,7 +34,16 @@
       <div class="card-wrapper">
         <paper-card class="card">
           <div class="header paper-card">
-            <vr-view url="[[_currentImage]]"></vr-view>
+            <div class="video-item">
+              <paper-card class="card">
+                <div class="header paper-card">
+                  <iron-image class="thumbnail" src="[[app.data.location.video.thumbnail]]" placeholder="[[app.data.location.video.thumbnail]]" sizing="cover" preload="" fade=""></iron-image>
+                  <div class="play-video" on-tap="_playVideo">
+                    <iron-icon class="play-icon" icon="icons:play"></iron-icon>
+                  </div>
+                </div>
+              </paper-card>
+            </div>
             <div class="title-text">[[localize('location-title')]]</div>
           </div>
           <div class="paper-card-container">
@@ -52,8 +61,11 @@
               </paper-icon-item>
             </div>
             <div class="card-actions">
-              <a class="bottom-link" href$="https://www.google.com/maps/dir/[[app.data.location.pointer.latitude]],[[app.data.location.pointer.longitude]]/@[[app.data.location.pointer.latitude]],[[app.data.location.pointer.longitude]],18z" target="_blank" rel="noopener noreferrer">
+              <a class="bottom-link" href$="//www.google.com/maps/dir/[[app.data.location.pointer.latitude]],[[app.data.location.pointer.longitude]]/@[[app.data.location.pointer.latitude]],[[app.data.location.pointer.longitude]],18z" target="_blank" rel="noopener noreferrer">
                 <paper-icon-button icon="icons:directions"></paper-icon-button>
+              </a>
+              <a class="bottom-link" href$="//gdgfresno.github.io/BWSS360tour" target="_blank" rel="noopener noreferrer">
+                <paper-icon-button icon="icons:cardboard"></paper-icon-button>
               </a>
             </div>
           </div>
@@ -63,7 +75,7 @@
 
   </template>
 
-  <script>!function(){"use strict";Polymer({is:"map-block",behaviors:[HOVERBOARD.LocalizeBehavior],properties:{options:{type:String,value:function(){return[{stylers:[{lightness:40},{visibility:"on"},{gamma:.9},{weight:.4}]},{elementType:"labels",stylers:[{visibility:"on"}]},{featureType:"water",stylers:[{color:"#5dc7ff"}]}]}},_currentSourceIndex:{type:Number,value:0},_currentImage:{type:String}},observers:["setImages(app.data.location.images)"],setImages:function(e){if(e&&(this.images=e,this._currentImage=this.images[this._currentSourceIndex],this.images.length>1)){var t=this;setInterval(function(){t.nextImage()},3e4)}},previousImage:function(){this._currentSourceIndex=this._currentSourceIndex>0?this._currentSourceIndex-1:this.images.length-1,this._currentImage=this.images[this._currentSourceIndex]},nextImage:function(){this._currentSourceIndex=this._currentSourceIndex<this.images.length-1?this._currentSourceIndex+1:0,this._currentImage=this.images[this._currentSourceIndex]}})}();</script>
+  <script>!function(){"use strict";Polymer({is:"map-block",behaviors:[HOVERBOARD.LocalizeBehavior],properties:{options:{type:String,value:function(){return[{stylers:[{lightness:40},{visibility:"on"},{gamma:.9},{weight:.4}]},{elementType:"labels",stylers:[{visibility:"on"}]},{featureType:"water",stylers:[{color:"#5dc7ff"}]}]}},_currentSourceIndex:{type:Number,value:0}},observers:["setVideo(app.data.location.video)"],setVideo:function(e){this.video=e},_playVideo:function(e){HOVERBOARD.Elements.Template.openVideo(this.video.title,this.video.youtubeId,!0),HOVERBOARD.Analytics.trackEvent("video","watch","location video "+this.video.title)}})}();</script>
 
 </dom-module>
 </body></html>

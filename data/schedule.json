@@ -2,64 +2,101 @@
     "date": "2016-10-22",
     "dateReadable": "October 22",
     "tracks": [{
-        "title": "Expo hall"
+        "title": "Web, AMP"
     }, {
-        "title": "Conference hall"
+        "title": "PWA"
     }, {
-        "title": "Workshops hall"
+        "title": "Android"
+    }, {
+        "title": "Cloud"
+    }, {
+        "title": "Maker Space"
     }],
     "timeslots": [{
-        "startTime": "09:00",
-        "endTime": "10:00",
+        "startTime": "08:00",
+        "endTime": "09:00",
         "sessions": [
             [101]
         ]
     }, {
-        "startTime": "10:00",
-        "endTime": "10:15",
+        "startTime": "09:00",
+        "endTime": "9:20",
+        "sessions": [
+            [116]
+        ]
+    }, {
+        "startTime": "09:20",
+        "endTime": "10:00",
         "sessions": [
             [102]
         ]
     }, {
-        "startTime": "10:15",
+        "startTime": "10:00",
         "endTime": "11:00",
+        "sessions": [
+            [141],
+            [131],
+            [112],
+            [121],
+            [110]
+        ]
+    }, {
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "sessions": [
+            [142],
+            [132],
+            [113],
+            [122],
+            [110]
+        ]
+    }, {
+        "startTime": "12:00",
+        "endTime": "13:00",
         "sessions": [
             [103]
         ]
     }, {
-        "startTime": "11:00",
-        "endTime": "11:40",
-        "sessions": [
-        ]
-    }, {
-        "startTime": "11:50",
-        "endTime": "12:30",
-        "sessions": [
-        ]
-    }, {
-        "startTime": "12:30",
+        "startTime": "13:00",
         "endTime": "14:00",
         "sessions": [
+            [134],
+            [133],
+            [111],
+            [123],
+            [110]
         ]
     }, {
         "startTime": "14:00",
-        "endTime": "14:40",
+        "endTime": "15:00",
         "sessions": [
+            [135],
+            [143],
+            [114],
+            [124],
+            [110]
         ]
     }, {
-        "startTime": "14:50",
-        "endTime": "15:30",
-        "sessions": [
-        ]
-    }, {
-        "startTime": "15:30",
+        "startTime": "15:00",
         "endTime": "16:00",
         "sessions": [
+            [136],
+            [144],
+            [115],
+            [125],
+            [110]
         ]
     }, {
         "startTime": "16:00",
-        "endTime": "16:40",
+        "endTime": "17:00",
         "sessions": [
+            [104]
+        ]
+    }, {
+        "startTime": "17:00",
+        "endTime": "18:00",
+        "sessions": [
+            [105]
         ]
     }]
 }]

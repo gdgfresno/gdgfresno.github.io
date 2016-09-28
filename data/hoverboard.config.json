@@ -73,12 +73,12 @@
       "permalink": "/team/"
     }
   ],
-  "url": "https://valleydevfest-620d6.firebaseapp.com/",
+  "url": "//valleydevfest.com/",
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "url": "//gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
   },
-  "partnershipProposition": "https://drive.google.com/open?id=0BzLFnuknQsvsSmFTT29DRnZYV1U",
+  "partnershipProposition": "//drive.google.com/open?id=0BzLFnuknQsvsSmFTT29DRnZYV1U",
   "disqusShortName": "hoverboard-gdg-x",
   "languages": [
     {
@@ -100,7 +100,7 @@
         },
         {
           "text": "google-developers",
-          "url": "https://developers.google.com/",
+          "url": "//developers.google.com/",
           "newTab": true
         },
         {
@@ -114,21 +114,29 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "rio@gdgfresno.com",
+        "url": "mailto:rio@gdgfresno.com"
       }
     ]
   },
   "tickets": {
-    "url": "https://www.eventbrite.com/e/valleydevfestcom-gdg-devfest-season-2016-tickets-27337601502 ",
+    "url": "//www.bit.ly/ValleyDevFest2016Tickets",
     "elements": [
+      {
+        "name": "tee-ticket",
+        "price": 23,
+        "currency": "$",
+        "starts": "tee-ticket-starts",
+        "ends": "tee-ticket-ends",
+        "info": "tee-ticket-info",
+        "soldOut": true
+      },
       {
         "name": "early-ticket",
         "price": 10,
         "currency": "$",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
-        "info": "early-ticket-info",
         "soldOut": false
       },
       {
@@ -149,6 +157,9 @@
       }
     ]
   },
+  "tshirts": {
+    "url": "//teespring.com/ValleyDevFest2016"
+  },
   "teamPageTitle": "team-page-title",
   "teamPageText": "team-page-text",
   "statistics": [
@@ -168,19 +179,24 @@
   "hashtag": "DevFest",
   "social": [
     {
-      "name": "meetup",
-      "nickname": "GDGFresno",
-      "url": "https://www.meetup.com/googledevelopers/"
+      "name": "gplus",
+      "nickname": "+Gdgfresno",
+      "url": "//plus.google.com/+Gdgfresno/posts"
     },
     {
-      "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/+Gdgfresno/posts"
+      "name": "facebook",
+      "nickname": "gdgfresno",
+      "url": "//www.facebook.com/gdgfresno/"
+    },
+    {
+      "name": "website",
+      "nickname": "googledevelopers",
+      "url": "//www.meetup.com/googledevelopers/"
     }
   ],
   "tweetsSource": "/data/tweets.json",
   "gallery": {
-    "albumUrl": "https://photos.google.com/share/AF1QipMB3ANn5xmJOD8sxRi5P5bdJk6CJj42ArkB5vIUEpulOHsW6-p9dBjlAXyuVjZEhA?key=WUN1UDBQT0pWeWJzUDRMLVBiNVJJNm50QmVQbFFB",
+    "albumUrl": "//photos.google.com/share/AF1QipMB3ANn5xmJOD8sxRi5P5bdJk6CJj42ArkB5vIUEpulOHsW6-p9dBjlAXyuVjZEhA?key=WUN1UDBQT0pWeWJzUDRMLVBiNVJJNm50QmVQbFFB",
     "photos": {
       "big": "/images/backgrounds/gdg-devfest-2015-418.jpg",
       "small": [
@@ -190,22 +206,24 @@
     }
   },
   "location": {
-    "apiKey": "",
+    "apiKey": "AIzaSyBF3hxBlnt1qfg0c9BUfdjqiIlNyJ8_gW4",
     "link": "http://bitwiseindustries.com/",
     "pointer": {
-      "latitude": 36.7323747,
-      "longitude": -119.7806278,
+      "latitude": 36.731822,
+      "longitude": -119.785882,
       "zoom": 16
     },
     "mapCenter": {
       "latitude": 36.732442,
       "longitude": -119.780780
     },
-    "images": [
-      "/images/backgrounds/location_hall.jpg"
-    ]
+    "video": {
+      "youtubeId": "oAjv_zrsznQ",
+      "title": "Welcome Home!",
+      "thumbnail": "/images/backgrounds/location_bwss.jpg"
+    }
   },
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "videosSessionsUrl": "//www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
   "callToAction": {
     "videoTitle": "action-title",
     "videoId": "8cnykM7UAy8"
