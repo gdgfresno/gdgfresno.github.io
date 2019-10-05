@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ksh",pluralRuleFunction:function(e,o){return o?"other":0==e?"zero":1==e?"one":"other"}});

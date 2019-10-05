@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"jgo",pluralRuleFunction:function(e,o){return o?"other":1==e?"one":"other"}});

@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"lrc",pluralRuleFunction:function(a,l){return"other"}}),IntlMessageFormat.__addLocaleData({locale:"lrc-IQ",parentLocale:"lrc"});

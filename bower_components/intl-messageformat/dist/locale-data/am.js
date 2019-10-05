@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"am",pluralRuleFunction:function(a,e){return e?"other":a>=0&&a<=1?"one":"other"}});

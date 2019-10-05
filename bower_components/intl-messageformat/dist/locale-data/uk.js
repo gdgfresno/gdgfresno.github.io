@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"uk",pluralRuleFunction:function(e,l){var a=String(e).split("."),t=a[0],n=!a[1],r=Number(a[0])==e,c=r&&a[0].slice(-1),i=r&&a[0].slice(-2),o=t.slice(-1),s=t.slice(-2);return l?3==c&&13!=i?"few":"other":n&&1==o&&11!=s?"one":n&&o>=2&&o<=4&&(s<12||s>14)?"few":n&&0==o||n&&o>=5&&o<=9||n&&s>=11&&s<=14?"many":"other"}});

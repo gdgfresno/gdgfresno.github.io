@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"sbp",pluralRuleFunction:function(a,e){return"other"}});

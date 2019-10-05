@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"nb",pluralRuleFunction:function(a,e){return e?"other":1==a?"one":"other"}}),IntlMessageFormat.__addLocaleData({locale:"nb-SJ",parentLocale:"nb"});

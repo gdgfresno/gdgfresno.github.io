@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ka",pluralRuleFunction:function(a,e){var n=String(a).split("."),t=n[0],l=t.slice(-2);return e?1==t?"one":0==t||l>=2&&l<=20||40==l||60==l||80==l?"many":"other":1==a?"one":"other"}});

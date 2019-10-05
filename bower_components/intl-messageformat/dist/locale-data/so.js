@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"so",pluralRuleFunction:function(a,e){return e?"other":1==a?"one":"other"}}),IntlMessageFormat.__addLocaleData({locale:"so-DJ",parentLocale:"so"}),IntlMessageFormat.__addLocaleData({locale:"so-ET",parentLocale:"so"}),IntlMessageFormat.__addLocaleData({locale:"so-KE",parentLocale:"so"});

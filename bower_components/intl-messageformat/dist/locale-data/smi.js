@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"smi",pluralRuleFunction:function(e,o){return o?"other":1==e?"one":2==e?"two":"other"}});

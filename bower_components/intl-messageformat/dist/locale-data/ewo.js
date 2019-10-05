@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ewo",pluralRuleFunction:function(a,e){return"other"}});

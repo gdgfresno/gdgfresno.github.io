@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"in",pluralRuleFunction:function(a,e){return"other"}});

@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"vi",pluralRuleFunction:function(a,e){return e&&1==a?"one":"other"}});

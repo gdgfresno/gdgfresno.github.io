@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ko",pluralRuleFunction:function(a,e){return"other"}}),IntlMessageFormat.__addLocaleData({locale:"ko-KP",parentLocale:"ko"});

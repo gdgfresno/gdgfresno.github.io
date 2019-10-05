@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ts",pluralRuleFunction:function(e,t){return t?"other":1==e?"one":"other"}});

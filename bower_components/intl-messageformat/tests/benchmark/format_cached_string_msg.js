@@ -1,1 +1,0 @@
-"use strict";global.Intl||require("intl");var IntlMessageFormat=require("../../"),msg="Hello, world!",mf=new IntlMessageFormat(msg,"en-US");module.exports=function(){mf.format()};

@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"teo",pluralRuleFunction:function(e,a){return a?"other":1==e?"one":"other"}}),IntlMessageFormat.__addLocaleData({locale:"teo-KE",parentLocale:"teo"});

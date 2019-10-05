@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ebu",pluralRuleFunction:function(a,e){return"other"}});

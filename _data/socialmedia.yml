@@ -1,0 +1,34 @@
+- name: WTM Fresno Meetup
+  url: https://www.meetup.com/womentechmakersfresno/
+  class: icon-message
+  title: WTM Fresno Meetup
+
+- name: GDG Fresno Meetup
+  url: https://www.meetup.com/googledevelopers/
+  class: icon-message
+  title: GDG Fresno Meetup
+
+- name: WTM Fresno Facebook
+  url: http://www.facebook.com/wtmfresno/
+  class: icon-facebook
+  title: WTM Fresno Facebook
+
+- name: GDG Fresno Facebook
+  url: http://www.facebook.com/gdgfresno/
+  class: icon-facebook
+  title: GDG Fresno Facebook
+
+- name: GitHub
+  url: http://github.com/gdgfresno
+  class: icon-github
+  title: GDG Frenso source codes
+
+- name: Twitter
+  url: https://twitter.com/gdgfresno
+  class: icon-twitter
+  title: GDG Fresno Twitter
+
+- name: Instagram
+  url: https://www.instagram.com/gdgfresno/
+  class: icon-instagram
+  title: GDG Fresno Instagram

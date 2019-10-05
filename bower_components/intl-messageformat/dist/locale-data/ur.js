@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ur",pluralRuleFunction:function(a,e){var t=String(a).split("."),l=!t[1];return e?"other":1==a&&l?"one":"other"}}),IntlMessageFormat.__addLocaleData({locale:"ur-IN",parentLocale:"ur"});

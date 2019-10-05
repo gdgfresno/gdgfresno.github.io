@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ja",pluralRuleFunction:function(a,e){return"other"}});

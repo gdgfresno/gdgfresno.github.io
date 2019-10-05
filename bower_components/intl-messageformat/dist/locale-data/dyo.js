@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"dyo",pluralRuleFunction:function(a,e){return"other"}});

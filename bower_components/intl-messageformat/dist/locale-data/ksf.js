@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ksf",pluralRuleFunction:function(a,e){return"other"}});

@@ -1,0 +1,60 @@
+---
+#
+# Use the widgets beneath and the content will be
+# inserted automagically in the webpage. To make
+# this work, you have to use › layout: frontpage
+#
+layout: frontpage
+header:
+  image: DevFestAudience2014.png
+  background-color: "#fabb00"
+  caption: WTM Fresno & GDG Fresno
+  caption_url: https://www.meetup.com/googledevelopers/
+widget1:
+  title: WTM Fresno Meetup
+  url: https://www.meetup.com/womentechmakersfresno/
+  image: WT_logo_vertical_pos_302.png
+  text: Meetup of Fresno Chapter of Women Techmakers
+widget2:
+  title: GDG Fresno Meetup
+  url: https://www.meetup.com/googledevelopers/
+  image: GDG_Fresno_verical_302.png
+  text: Meetup of GDG Fresno
+widget3:
+  title: WTM Fresno Facebook
+  url: http://www.facebook.com/wtmfresno/
+  image: WT_logo_vertical_pos_302.png
+  text: Meetup of Fresno Chapter of Women Techmakers
+widget4:
+  title: GDG Fresno Facebook
+  url: http://www.facebook.com/gdgfresno/
+  image: GDG_Fresno_verical_302.png
+  text: Meetup of GDG Fresno
+#
+# Use the call for action to show a button on the frontpage
+#
+# To make internal links, just use a permalink like this
+# url: /getting-started/
+#
+# To style the button in different colors, use no value
+# to use the main color or success, alert or secondary.
+# To change colors see sass/_01_settings_colors.scss
+#
+# callforaction:
+#   url: https://tinyletter.com/feeling-responsive
+#   text: Inform me about new updates and features ›
+#   style: alert
+permalink: /index.html
+#
+# This is a nasty hack to make the navigation highlight
+# this page as active in the topbar navigation
+#
+homepage: true
+---
+
+<!-- <div id="videoModal" class="reveal-modal large" data-reveal="">
+  <div class="flex-video widescreen vimeo" style="display: block;">
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div> -->

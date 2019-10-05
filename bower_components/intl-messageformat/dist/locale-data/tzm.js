@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"tzm",pluralRuleFunction:function(t,e){var a=String(t).split("."),r=Number(a[0])==t;return e?"other":0==t||1==t||r&&t>=11&&t<=99?"one":"other"}});

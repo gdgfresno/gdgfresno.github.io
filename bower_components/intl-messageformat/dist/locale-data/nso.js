@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"nso",pluralRuleFunction:function(e,o){return o?"other":0==e||1==e?"one":"other"}});

@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"cu",pluralRuleFunction:function(a,e){return"other"}});

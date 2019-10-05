@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"vai",pluralRuleFunction:function(a,e){return"other"}}),IntlMessageFormat.__addLocaleData({locale:"vai-Latn",pluralRuleFunction:function(a,e){return"other"}}),IntlMessageFormat.__addLocaleData({locale:"vai-Vaii",parentLocale:"vai"});

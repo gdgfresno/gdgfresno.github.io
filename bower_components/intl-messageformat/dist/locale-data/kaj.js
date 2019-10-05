@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"kaj",pluralRuleFunction:function(a,e){return e?"other":1==a?"one":"other"}});

@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"twq",pluralRuleFunction:function(a,t){return"other"}});

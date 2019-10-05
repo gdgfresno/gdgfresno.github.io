@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"ki",pluralRuleFunction:function(a,e){return"other"}});

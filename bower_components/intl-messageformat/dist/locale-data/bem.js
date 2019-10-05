@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"bem",pluralRuleFunction:function(e,a){return a?"other":1==e?"one":"other"}});

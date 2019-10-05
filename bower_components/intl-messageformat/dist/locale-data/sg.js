@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"sg",pluralRuleFunction:function(a,e){return"other"}});

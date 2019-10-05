@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"dje",pluralRuleFunction:function(a,e){return"other"}});

@@ -1,1 +1,0 @@
-IntlMessageFormat.__addLocaleData({locale:"mr",pluralRuleFunction:function(e,o){return o?1==e?"one":2==e||3==e?"two":4==e?"few":"other":e>=0&&e<=1?"one":"other"}});
