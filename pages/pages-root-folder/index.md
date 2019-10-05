@@ -6,30 +6,22 @@
 #
 layout: frontpage
 header:
-  image: DevFestAudience2014.png
-  background-color: "#fabb00"
-  caption: WTM Fresno & GDG Fresno
-  caption_url: https://www.meetup.com/googledevelopers/
+  image_fullwidth: DevFestAudience2014.png
+#   background-color: "#fabb00"
 widget1:
-  title: WTM Fresno Meetup
-  url: https://www.meetup.com/womentechmakersfresno/
+  title: WTM Fresno
   image: WT_logo_vertical_pos_302.png
-  text: Meetup of Fresno Chapter of Women Techmakers
+  url1: https://www.meetup.com/womentechmakersfresno/
+  text1: WTM Fresno Meetup
+  url2: http://www.facebook.com/wtmfresno/
+  text2: WTM Fresno Facebook
 widget2:
-  title: GDG Fresno Meetup
-  url: https://www.meetup.com/googledevelopers/
+  title: GDG Fresno
   image: GDG_Fresno_verical_302.png
-  text: Meetup of GDG Fresno
-widget3:
-  title: WTM Fresno Facebook
-  url: http://www.facebook.com/wtmfresno/
-  image: WT_logo_vertical_pos_302.png
-  text: Meetup of Fresno Chapter of Women Techmakers
-widget4:
-  title: GDG Fresno Facebook
-  url: http://www.facebook.com/gdgfresno/
-  image: GDG_Fresno_verical_302.png
-  text: Meetup of GDG Fresno
+  url1: https://www.meetup.com/googledevelopers/
+  text1: GDG Fresno Meetup
+  url2: https://www.facebook.com/gdgfresno/
+  text2: GDG Fresno Facebook
 #
 # Use the call for action to show a button on the frontpage
 #

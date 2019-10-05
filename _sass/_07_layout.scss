@@ -15,6 +15,7 @@
 - Footer
 - Subfooter
 - CSS-Classes to add margin at top or bottom
+- Widgets
 
 */
 
@@ -361,3 +362,11 @@ body.video cite { color: #fff; }
 .pr5  { padding-right: 5px !important; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
+
+
+/* Widgets
+------------------------------------------------------------------- */
+
+.frontpage-widget {
+    text-align: center;
+}
