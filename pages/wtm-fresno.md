@@ -11,6 +11,6 @@ permalink: "/wtm-fresno/"
 WTM Fresno is the Fresno chapter of [Women Techmakers][1].
 
 <a class="radius button small" href="https://gdg.community.dev/women-techmakers-fresno/">WTM Community page</a>
-<a class="radius button small" href="http://www.facebook.com/wtmfresno/">Facebook page</a>
+<a class="radius button small" href="https://www.facebook.com/wtmfresno/">Facebook page</a>
 
  [1]: https://www.womentechmakers.com/
