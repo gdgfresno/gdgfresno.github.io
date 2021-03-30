@@ -21,7 +21,7 @@
 *
 *   {% include gallery %}
 *
-*   Check out the example page › http://phlow.github.io/feeling-responsive/design/gallery/
+*   Check out the example page › https://phlow.github.io/feeling-responsive/design/gallery/
 *
 {% endcomment %}
 <div>

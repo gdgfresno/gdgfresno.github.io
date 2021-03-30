@@ -81,5 +81,5 @@ Conference Code of Conduct by WTM Fresno and GDG Fresno is licensed under a [Cre
  [1]: mailto:info@gdgfresno.com?subject=CoC Alert
  [2]: https://www.rainn.org/
  [3]: tel:800.656.4673
- [4]: http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy
- [5]: http://creativecommons.org/licenses/by/3.0/
+ [4]: https://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy
+ [5]: https://creativecommons.org/licenses/by/3.0/

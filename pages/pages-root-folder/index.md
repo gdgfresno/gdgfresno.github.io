@@ -13,7 +13,7 @@ widget1:
   image: WT_logo_vertical_pos_302.png
   url1: https://gdg.community.dev/women-techmakers-fresno/
   text1: WTM Fresno Community
-  url2: http://www.facebook.com/wtmfresno/
+  url2: https://www.facebook.com/wtmfresno/
   text2: WTM Fresno Facebook
 widget2:
   title: GDG Fresno

@@ -9,17 +9,17 @@
   title: GDG Fresno Community
 
 - name: WTM Fresno Facebook
-  url: http://www.facebook.com/wtmfresno/
+  url: https://www.facebook.com/wtmfresno/
   class: icon-facebook
   title: WTM Fresno Facebook
 
 - name: GDG Fresno Facebook
-  url: http://www.facebook.com/gdgfresno/
+  url: https://www.facebook.com/gdgfresno/
   class: icon-facebook
   title: GDG Fresno Facebook
 
 - name: GitHub
-  url: http://github.com/gdgfresno
+  url: https://github.com/gdgfresno
   class: icon-github
   title: GDG Frenso source codes
 
