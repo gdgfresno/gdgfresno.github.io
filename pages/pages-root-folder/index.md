@@ -11,15 +11,15 @@ header:
 widget1:
   title: WTM Fresno
   image: WT_logo_vertical_pos_302.png
-  url1: https://www.meetup.com/womentechmakersfresno/
-  text1: WTM Fresno Meetup
+  url1: https://gdg.community.dev/women-techmakers-fresno/
+  text1: WTM Fresno Community
   url2: http://www.facebook.com/wtmfresno/
   text2: WTM Fresno Facebook
 widget2:
   title: GDG Fresno
   image: GDG_Fresno_verical_302.png
-  url1: https://www.meetup.com/googledevelopers/
-  text1: GDG Fresno Meetup
+  url1: https://gdg.community.dev/gdg-fresno/
+  text1: GDG Fresno Community
   url2: https://www.facebook.com/gdgfresno/
   text2: GDG Fresno Facebook
 #

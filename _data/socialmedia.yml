@@ -1,12 +1,12 @@
-- name: WTM Fresno Meetup
-  url: https://www.meetup.com/womentechmakersfresno/
+- name: WTM Fresno Community
+  url: https://gdg.community.dev/women-techmakers-fresno/
   class: icon-message
-  title: WTM Fresno Meetup
+  title: WTM Fresno Community
 
-- name: GDG Fresno Meetup
-  url: https://www.meetup.com/googledevelopers/
+- name: GDG Fresno Community
+  url: https://gdg.community.dev/gdg-fresno/
   class: icon-message
-  title: GDG Fresno Meetup
+  title: GDG Fresno Community
 
 - name: WTM Fresno Facebook
   url: http://www.facebook.com/wtmfresno/

@@ -6,6 +6,6 @@ subheadline: ""
 teaser: ""
 permalink: "/contact/"
 ---
-You can [contact us through email][1] or our social media (Meetup and Facebook). Social media links are below in the footer section.
+You can [contact us through email][1] or our social media (GDG Community site and Facebook). Social media links are below in the footer section.
 
  [1]: mailto:info@gdgfresno.com
