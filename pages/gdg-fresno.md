@@ -10,7 +10,7 @@ Google is known all around the world. Everyone is 'Googling', watching 'YouTube'
 
 Google Developers Groups (for example [GDG Fresno][1], [GDG Visalia][2], [GDG Modesto][3], [GDG Sonoma][4], [GDG San Francisco][5], [GDG Berkeley][7], [GDG Silicon Valley][8], [GDG LA][6]) are open and volunteer geek communities who create exciting projects and share experience about Google technologies with a passion. Our goal is to organize space to connect the best industry experts with the audience to boost development of IT.
 
-<a class="radius button small" href="https://gdg.community.dev/gdg-fresno/">GGD Community page</a>
+<a class="radius button small" href="https://gdg.community.dev/gdg-fresno/">GDG Community page</a>
 <a class="radius button small" href="https://www.facebook.com/gdgfresno/">Facebook page</a>
 
  [1]: https://gdg.community.dev/gdg-fresno/
