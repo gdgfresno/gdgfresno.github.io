@@ -2,12 +2,12 @@
   url: "/"
   side: left
 
-- title: Women Techmakers
-  url: "/wtm-fresno/"
-  side: left
-
 - title: GDG Fresno
   url: "/gdg-fresno/"
+  side: left
+
+- title: Women Techmakers
+  url: "/wtm-fresno/"
   side: left
 
 - title: Code of Conduct
