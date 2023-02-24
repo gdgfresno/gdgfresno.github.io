@@ -9,19 +9,19 @@ header:
   image_fullwidth: DevFestAudience2014.png
 #   background-color: "#fabb00"
 widget1:
+  title: GDG Fresno
+  image: GDG_Fresno_verical_302.png
+  url1: https://www.meetup.com/googledevelopergroup/
+  text1: GDG Fresno Meetup
+  url2: https://gdg.community.dev/gdg-fresno/
+  text2: GDG Fresno Community
+widget2:
   title: WTM Fresno
   image: WT_logo_vertical_pos_302.png
   url1: https://gdg.community.dev/women-techmakers-fresno/
   text1: WTM Fresno Community
   url2: https://www.facebook.com/wtmfresno/
   text2: WTM Fresno Facebook
-widget2:
-  title: GDG Fresno
-  image: GDG_Fresno_verical_302.png
-  url1: https://gdg.community.dev/gdg-fresno/
-  text1: GDG Fresno Community
-  url2: https://www.facebook.com/gdgfresno/
-  text2: GDG Fresno Facebook
 #
 # Use the call for action to show a button on the frontpage
 #
