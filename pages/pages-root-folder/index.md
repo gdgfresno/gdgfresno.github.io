@@ -10,7 +10,7 @@ header:
 #   background-color: "#fabb00"
 widget1:
   title: GDG Fresno
-  image: GDG_Fresno_verical_302.png
+  image: GDG_Fresno_vertical_302.png
   url1: https://www.meetup.com/googledevelopergroup/
   text1: GDG Fresno Meetup
   url2: https://gdg.community.dev/gdg-fresno/
